@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #0f0;
+}
+
+.password-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.password-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.password-submit {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+}
+
+.forum {
+    display: none;
+}
+
+.comments {
+    text-align: left;
+    padding: 20px;
+}
+
+.comment {
+    border: 1px solid #0f0;
+    background-color: #000;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.comment-input, .name-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.comment-input.dark-background, .name-input.dark-background {
+    background-color: #111; /* Fondo oscuro y sutil */
+    color: #0f0;
+}
+
+.comment-submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #111; /* Color más oscuro y sutil */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.subtle-button:hover {
+    background-color: #222; /* Color ligeramente más oscuro al pasar el mouse */
+}
